@@ -23,7 +23,7 @@ function About() {
       <div className="secmain flex justify-center h-[15em] items-center">
         <div className="div px-5  w-[60em]">
         <h1 className='text-3xl text-[#f834c7] leading-normal font-semibold italic '>I'am Dhiraj kumar tiwari</h1>
-         <h2 className='text-xl'>Studying my second year in Computer Science Engineering at Uttaranchal University, Dehradun  India. I am always ready to gain  new experiences,Coordinate with new people and learn new things. I am here to provide creative ideas for bigners in Acadmic fields and share my knowledge</h2>
+         <h2 className='text-xl'>Studying my second year in Computer Science Engineering at Uttaranchal University, Dehradun located in India. I am always ready to have new experiences, meet new people and learn new things. I find the idea of creating value for people and impacting the world through my work delightful.</h2>
         </div>
       </div>
     </Layout>

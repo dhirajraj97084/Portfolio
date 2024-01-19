@@ -83,11 +83,11 @@ export default function Navbar() {
                 <div className="mt-6">
                   <nav className="grid gap-y-4">
                     {menuItems.map((item) => (
-                      <Link>
+                      <Link
                         key={item.name}
-                        to={item.href}
+                        to={item.href}                        
                         className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
-                      
+                      >
                         <span className="ml-3 text-base  text-white font-bold">
                           {item.name}
                         </span>
@@ -95,12 +95,7 @@ export default function Navbar() {
                     ))}
                   </nav>
                 </div>
-                {/* <button
-                  type="button"
-                  className="mt-4 w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                >
-                  Button text
-                </button> */}
+                
               </div>
             </div>
           </div>
