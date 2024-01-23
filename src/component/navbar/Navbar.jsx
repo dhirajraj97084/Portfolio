@@ -30,7 +30,7 @@ export default function Navbar() {
 
   return (
     <div className="div sticky top-0 z-20">
-       < div className="relative w-full  shadow-md bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%  ">
+       < div className="relative w-full  shadow-md bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% py-2  ">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="inline-flex items-center space-x-2">
           
@@ -73,7 +73,7 @@ export default function Navbar() {
                     <button
                       type="button"
                       onClick={toggleMenu}
-                      className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                      className="inline-flex items-center justify-center rounded-md p-2 text-gray-400  "
                     >
                       <span className="sr-only">Close menu</span>
                       <X className="h-6 w-6" aria-hidden="true" />

@@ -4,13 +4,13 @@ function Projt() {
   return (
     <div>
        <div className="main flex justify-center py-4">
-        <h1 className='text-3xl font-bold lg:mb-12 mb-6'>Projects</h1>
+        <h1 className='text-3xl font-bold lg:mb-12 mb-6 '>Projects</h1>
     </div>
     <div className="main flex flex-wrap justify-center  ">
      <div className="sub w-full lg:w-1/3 px-4 mb-4 ">
           <div className="inner bg-white py-3 rounded-xl shadow-xl">
             <a href="https://vite-project-sage.vercel.app/"><img src="img/port.png" alt=" img" className='rounded-xl  mx-auto ' /></a>
-            <a href="https://vite-project-sage.vercel.app/"><h1 className=' hover:text-cyan-500 text-3xl font-semibold text-center py-4 '>Portfolio</h1></a>
+            <a href="https://vite-project-sage.vercel.app/"><h1 className=' hover:text-cyan-500 text-3xl font-semibold text-center py-4 text-cyan-700 '>Portfolio</h1></a>
             
           </div>
         </div>
